@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+label[for=pattern-switch] {
+	background-color: #aaa;
+	border-radius: 4px;
+	font-size: 15px;
+	color: white;
+	display: inline-block;
+	float: right;
+	margin: 15px 0;
+	padding: 10px 10px 10px 8px;
+}
+
+
+
+
+
+
+
+
+
+
