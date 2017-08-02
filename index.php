@@ -21,9 +21,6 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/basscss.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- http://www.chartjs.org/ and https://github.com/ashiguruma/patternomaly/ plugin -->
-	<script src="js/vendor/Chart.min.js"></script>
-	<script src='js/vendor/patternomaly.js'></script>
 	<title>Chart JS | MCIAA Passenger movement monthly</title>
 </head>
 <body>
@@ -34,6 +31,9 @@
 		<canvas id="chartHolder"></canvas>
 	</div>
 	
+    <!-- http://www.chartjs.org/ and https://github.com/ashiguruma/patternomaly/ plugin -->
+	<script src="js/vendor/Chart.min.js"></script>
+	<script src='js/vendor/patternomaly.js'></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
